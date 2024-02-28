@@ -1,4 +1,4 @@
-# RAG Pattern Template
+# RAG Pattern Project Template
 
 This codebase provides a template for the implementation of a RAG (Retrieval-Augmented-Generation) patten for the creation of a Copilot / ChatBot solution. The template uses the following service:
 
