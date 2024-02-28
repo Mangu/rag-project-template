@@ -1,0 +1,40 @@
+{
+  "nodeLayouts": {
+    "inputs": {
+      "x": 290,
+      "y": 42,
+      "index": -1
+    },
+    "outputs": {
+      "x": 220,
+      "y": 846,
+      "index": -1
+    },
+    "modify_query_with_history": {
+      "x": 227.5,
+      "y": 176,
+      "index": 0
+    },
+    "vectordb_lookup": {
+      "x": 227.5,
+      "y": 310,
+      "index": 1
+    },
+    "generate_prompt_context": {
+      "x": 227.5,
+      "y": 444,
+      "index": 2
+    },
+    "prompt_variant": {
+      "x": 140,
+      "y": 578,
+      "index": 3
+    },
+    "chat_with_context": {
+      "x": 140,
+      "y": 712,
+      "index": 4
+    }
+  },
+  "orientation": "Vertical"
+}

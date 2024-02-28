@@ -1,0 +1,12 @@
+{
+  "id": "123",
+  "metadata": {
+    "author": "John Doe",
+    "date_created": "2022-01-01",
+    "source": "https://example.com/article/123"
+  },
+  "content": "This is the main body of text that you want to be searchable. It could be an article, a product description, etc.",
+  "semantic_summary": "This is a semantic summary of the content.",
+  "vector": [0.1, 0.2, 0.3, 0.4, 0.5],
+  "sementic_vector": [0.1, 0.2, 0.3, 0.4, 0.5]
+}

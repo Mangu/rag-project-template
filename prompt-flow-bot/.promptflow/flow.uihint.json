@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "modify_query_with_history": {
+      "variant_0": {
+        "inputs": {
+          "chat_input": [],
+          "chat_history": []
+        }
+      }
+    },
+    "vectordb_lookup": {
+      "variant_0": {
+        "inputs": {
+          "input1": []
+        }
+      }
+    },
+    "generate_prompt_context": {
+      "variant_0": {
+        "inputs": {
+          "search_result": []
+        }
+      }
+    },
+    "prompt_variant": {
+      "variant_0": {
+        "inputs": {
+          "text": []
+        }
+      }
+    },
+    "chat_with_context": {
+      "variant_0": {
+        "inputs": {
+          "prompt_text": []
+        }
+      }
+    }
+  }
+}

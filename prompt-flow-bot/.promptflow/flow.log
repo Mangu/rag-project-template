@@ -1,0 +1,249 @@
+2024-02-28 13:36:02 -0500   36728 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-02-28 13:36:02 -0500   36728 execution.flow     INFO     Start to run 5 nodes with concurrency level 16.
+2024-02-28 13:36:02 -0500   36728 execution.flow     INFO     Executing node modify_query_with_history. node run id: 68788106-2b16-421f-97e9-9bbca3ae4177_modify_query_with_history_0
+2024-02-28 13:36:02 -0500   36728 execution.flow     INFO     Node modify_query_with_history completes.
+2024-02-28 13:36:02 -0500   36728 execution.flow     INFO     Executing node vectordb_lookup. node run id: 68788106-2b16-421f-97e9-9bbca3ae4177_vectordb_lookup_0
+2024-02-28 13:36:04 -0500   36728 execution.flow     INFO     Node vectordb_lookup completes.
+2024-02-28 13:36:04 -0500   36728 execution.flow     INFO     Executing node generate_prompt_context. node run id: 68788106-2b16-421f-97e9-9bbca3ae4177_generate_prompt_context_0
+2024-02-28 13:36:05 -0500   36728 execution.flow     INFO     [generate_prompt_context in line 0 (index starts from 0)] stdout> Content: Pennsylvania Department of Health Medical & OB/GYN 7003 – ALS – Adult/Peds
+NONTRAUMATIC PAIN MANAGEMENT
+STATEWIDE ALS PROTOCOL
+Criteria:
+A. Patient with headache that is similar to previous migraine headaches
+B. Patient with flank pain, including suspected kidney stone pain
+C. Patient with acute abdominal pain
+D. Patient with acute pelvic pain
+Exclusion Criteria:
+A. Headache pain that is new for patient, associated with cerebral aneurysm, or is worst headache of
+patient’s life - these may be associated with intracranial hemorrhage
+B. Known or suspected bleeding (gastrointestinal bleeding, leaking AAA, vaginal bleeding, etc.)
+C. Known or suspected pregnancy
+D. Pain from musculoskeletal trauma (Follow Musculoskeletal Trauma Protocol #6003)
+E. Known history of glucose-6-phosphate dehydrogenase (G6PD) deficiency
+System Requirements
+A. EMS region must approve the use of ketamine within the region, and the region must perform a QI
+audit of every case of ketamine administration for compliance with this protocol. All results must
+be forwarded quarterly to the Bureau of EMS for statewide QI. The Agency’s assigned EMS
+regional council must verify the agency has met, and continues to meet the requirements as
+specified by the Department, for training, stocking, and QI. The region must perform a QI audit of
+every case of ketamine administration for compliance with this protocol. All results must be
+forwarded quarterly to the Bureau of EMS for statewide QI.
+B. Agency medical director must approve of ketamine use by the EMS agency and must perform a QI
+audit of every case of ketamine administration for compliance with this protocol.
+C. Agency medical director must personally assure training and continuing education in patient
+selection, continuous respiratory monitoring, advanced airway management, ketamine
+pharmacology, and use of this protocol.
+D. Ketamine is an optional medication for EMS providers above the level of AEMT, and approval to
+carry this medication is specific to the use of pain, sedation assisted intubation, and/or delirium with
+agitated behavior, based upon regional and agency medical director approval. EMS providers are
+not permitted to administer ketamine for indications outside of specific indications within
+these protocols – even by medical command order – unless they have received special
+approval to participate in pilot use for other indications.
+E. Agency medical director must assure initial and ongoing competence for each individual EMS
+provider who will use ketamine. Only individuals credentialed to administer this medication will
+utilize the medication.
+F. The ALS agency must carry an alternative/ rescue airway device in various sizes.
+Effective 03/31/2024 7003-3 of 5
+Source: 2023v1-2 PA ALS Protocols.pdf
+
+Content: Pennsylvania Department of Health Trauma & Environmental 6093 – ALS – Adult/Peds
+ANTIBIOTICS FOR OPEN FRACTURE
+STATEWIDE ALS PROTOCOL [OPTIONAL]
+Criteria:
+A. Patients with apparent open fractures – bony deformity or crepitus, with laceration over the fracture
+site.
+Exclusion Criteria:
+A. History of allergic reaction to antibiotics in cephalosporin class
+B. History of anaphylaxis to antibiotics in penicillin class
+System Requirements:
+A. ceFAZolin may only be carried by an ALS agency and administered by ALS providers above the
+level of AEMTs
+B. Every participating ALS provider must complete the Antibiotics for Open Fractures continuing
+education course #1000033337, either through an in-person presentation overseen by the EMS
+agency medical director or through the online LMS course.
+C. EMS agency medical director must credential ALS providers to administer ceFAZolin.
+D. A Patient Data Form must be completed by the ALS provider after each use of antibiotics for open
+fracture. Agencies must ensure that their medical director completes his/her section of the form
+and that the forms are submitted monthly to the regional EMS council for the regional/state QI
+process.
+Performance Parameters:
+1. Ensure that a completed Patient Data Form is collected for each patient treated with cefazolin,
+including patient demographics, time/date of injury, time/date of initiating antibiotic, documentation
+of history of allergies to antibiotics, and other information.
+2. Ensure that EMS agency medical director has reviewed each Patient Care Report Data Form and
+completed documentation of the medical director QI review on the Patient Care Report Data Form.
+Effective 11/01/21 6093-2 of 2
+Source: 2023v1-2 PA ALS Protocols.pdf
+
+Content: Pennsylvania Department of Health Medical & OB/GYN 6003 – ALS – Adult/Peds
+MUSCULOSKELETAL TRAUMA
+STATEWIDE ALS PROTOCOL
+Criteria:
+A. Patient with isolated suspected extremity fractures.
+B. Patient with acute extremity pain after trauma
+C. Patient with acute back pain, excluding chronic back pain
+D. Patient with acute thoracic/ rib pain after trauma
+Exclusion Criteria:
+A. Traumatic/hypovolemic shock (Follow Multisystem Trauma or Traumatic Shock protocol #6002)
+System Requirements
+A. EMS region must approve the use of ketamine within the region, and the region must perform a QI
+audit of every case of ketamine administration for compliance with this protocol. All results must
+be forwarded quarterly to the Bureau of EMS for statewide QI.
+B. Agency medical director must approve of ketamine use by the EMS agency and must perform a QI
+audit of every case of ketamine administration for compliance with this protocol.
+C. Agency medical director must personally assure training and continuing education in patient
+selection, continuous respiratory monitoring, advanced airway management, ketamine
+pharmacology, and use of this protocol.
+D. Ketamine is an optional medication for EMS providers at or above the level of AEMT paramedic
+level, and approval to carry this medication is specific to the use for pain, delirium with agitated
+behavior, and/or airway management based upon regional and agency medical director approval.
+An agency may have medical director and regional approval to use ketamine for some, all, or none
+of the indications as listed in protocol # 1000(G) above. Agency medical director must assure initial
+and ongoing competence for each individual EMS provider who will use ketamine. Only individuals
+credentialed to administer this medication will utilize the medication.
+E. The ALS agency must carry an alternative/ rescue supraglottic airway device in various sizes.
+F. Ketamine may only be carried by ALS agencies that follow all aspects of this protocol and
+permission to carry the medication will be removed from the agency by the Bureau of EMS if either
+the agency/regional QI or other investigation determines that there are significant variances from
+this protocol.
+Possible Medical Command Orders:
+A. Additional fentaNYL or morphine or other analgesic
+B. Intramuscular fentaNYL or morphine
+Notes:
+1. Traction splinting should not be used for hip (proximal femoral neck) fractures.
+2. Acetaminophen is contraindicated in patients with liver disease/failure.
+3. NSAID (nonsteroidal anti-inflammatory drugs), including ibuprofen and ketorolac, are contraindicated
+if:
+a. Oral NSAID (e.g. ibuprofen, naproxen, etc.) taken by patient in last 6 hours
+b. Bleeding or suspected bleeding (e.g. head/chest/abdominal trauma, gastrointestinal,
+vascular).
+c. Known kidney disease/failure or kidney transplant
+d. NSAIDS can be given to any child older than 6 months. The maximum dose is 600mg.
+Effective 03/31/2024 6003-2 of 4
+Source: 2023v1-2 PA ALS Protocols.pdf
+2024-02-28 13:36:05 -0500   36728 execution.flow     INFO     Node generate_prompt_context completes.
+2024-02-28 13:36:05 -0500   36728 execution.flow     INFO     Executing node prompt_variant. node run id: 68788106-2b16-421f-97e9-9bbca3ae4177_prompt_variant_0
+2024-02-28 13:36:05 -0500   36728 execution.flow     INFO     Node prompt_variant completes.
+2024-02-28 13:36:05 -0500   36728 execution.flow     INFO     Executing node chat_with_context. node run id: 68788106-2b16-421f-97e9-9bbca3ae4177_chat_with_context_0
+2024-02-28 13:36:05 -0500   36728 execution.flow     WARNING  Output of chat_with_context is not json serializable, use str to store it.
+2024-02-28 13:36:05 -0500   36728 execution.flow     INFO     Node chat_with_context completes.
+2024-02-28 13:37:33 -0500   36728 execution.flow     INFO     Start executing nodes in thread pool mode.
+2024-02-28 13:37:33 -0500   36728 execution.flow     INFO     Start to run 5 nodes with concurrency level 16.
+2024-02-28 13:37:33 -0500   36728 execution.flow     INFO     Executing node modify_query_with_history. node run id: 06ecc288-3464-423d-a897-05302b3bc856_modify_query_with_history_0
+2024-02-28 13:37:33 -0500   36728 execution.flow     INFO     Node modify_query_with_history completes.
+2024-02-28 13:37:33 -0500   36728 execution.flow     INFO     Executing node vectordb_lookup. node run id: 06ecc288-3464-423d-a897-05302b3bc856_vectordb_lookup_0
+2024-02-28 13:37:35 -0500   36728 execution.flow     INFO     Node vectordb_lookup completes.
+2024-02-28 13:37:35 -0500   36728 execution.flow     INFO     Executing node generate_prompt_context. node run id: 06ecc288-3464-423d-a897-05302b3bc856_generate_prompt_context_0
+2024-02-28 13:37:35 -0500   36728 execution.flow     INFO     [generate_prompt_context in line 0 (index starts from 0)] stdout> Content: Pennsylvania Department of Health Resuscitation 3000A – ALS – Adult
+b. If bradycardia, consider atropine 1 mg IV/IO, if indicated
+c. If no response to fluids (SBP<80 and decreased LOC), administer EPINEPHrine 20 mcg
+0.01 mg/mL EPINEPHrine 0.02mg of 0.01mg/mL EPINEPHrine slow IV push (prepared by adding
+0.1mg (1mL) of 0.1mg/mL EPINEPHrine to 9mL of saline/flush)EPINEPHrine or DOPAmine
+infusion by appropriate protocol or medical command order
+3. Airway – if considering advanced airway, consider high-flow NC oxygen at 15 LPM using a
+second oxygen tank if attempting advanced airway, consider applying a nasal cannula with 15
+LPM oxygen to maintain an appropriate SpO2.
+D. Actions within First 20 Minutes1,2:
+1. Re-assess response to treatments
+2. Circulation – continue fluids/vasopressors (push dose or infusion) as indicated by appropriate
+protocol or medical command order
+3. Airway – insert advanced airway if indicated
+E. Once critical actions have been completed, move the patient to ambulance for transport.
+Notes:
+1. The specific lengths of time listed are approximate to provide a sense of urgency and to prioritize
+actions. Provider safety is of utmost importance. Care for these patients should be given as quickly
+as possible, but safety considerations and the scene environment may lead to times that are longer
+than these stated goals. When conditions make it impossible to meet these goals, the reasons
+should be documented.
+2. Actions listed should be simultaneous and not in any specific order.
+3. Follow appropriate shock protocol for push dose EPINEPHrine. 0.01 mg/mL (prepared by mixing 1
+mL of 0.1 mg/mL diluted with 9 mL NSS) EPINEPHrine 0.02mg of 0.01mg/mL EPINEPHrine slow IV
+push (prepared by adding 0.1mg (1mL) of 0.1mg/mL EPINEPHrine to 9mL of saline/flush)
+4. Symptomatic patients with end tidal capnography reading greater than 50mmHg may suggest
+impending respiratory failure. End tidal capnography readings less than 30mmHg in symptomatic
+patients may suggest shock.
+Performance Parameters:
+1. Review all cases of cardiac arrest witnessed by (in presence of) EMS providers for compliance with
+this protocol to prevent patient deterioration.
+2. Ensure that specific treatments also follow other appropriate protocols, e.g. Airway Management,
+Shock, Tachycardia, Bradycardia, etc.
+Effective 03/31/2024 3000A-3 of 3
+Source: 2023v1-2 PA ALS Protocols.pdf
+
+Content: Pennsylvania Department of Health Resuscitation 3000P – ALS – Peds
+1. Re-assess response to treatments, including capillary refill with vital signs3
+2. Circulation
+a. Repeat NSS 20 mL/kg bolus if indicated
+b. If bradycardia, optimize ventilation/ oxygenation (follow protocol #5021P).
+c. If no response to fluids, follow Shock Protocol #7005 (Consider need for steroids if steroid
+dependent or h/o congenital adrenal hyperplasia.)
+3. Airway – if considering advanced airway, consider high-flow NC oxygen at 15 LPM using a
+second oxygen tank if attempting advanced airway, consider applying a nasal cannula with 15
+LPM oxygen to maintain an appropriate SpO2.
+D. Actions within First 20 Minutes1,2:
+1. Re-assess response to treatments. including capillary refill with vital signs3
+2. Circulation – continue fluids/vasopressors (push dose or infusion) as indicated by appropriate
+protocol or medical command order
+3. Airway – insert advanced airway if indicated
+E. Once critical actions have been completed, move the patient to ambulance for transport.
+Notes:
+1. The specific lengths of time listed are approximate to provide a sense of urgency and to prioritize
+actions. Provider safety is of utmost importance. Care for these patients should be given as quickly
+as possible, but safety considerations and the scene environment may lead to times that are longer
+than these stated goals. When conditions make it impossible to meet these goals, the reasons
+should be documented.
+2. Actions listed should be simultaneous and not in any specific order.
+3. See BLS Protocol Appendix G for normal vital sign range by age.
+4. Symptomatic patients with end tidal capnography reading greater than 50mmHg may suggest
+impending respiratory failure. End tidal capnography readings less than 30mmHg in symptomatic
+patients may suggest shock.
+Performance Parameters:
+1. Review all cases of cardiac arrest witnessed by (in presence of) EMS providers for compliance with
+this protocol to prevent patient deterioration.
+2. Ensure that specific treatments also follow other appropriate protocols, e.g. Airway Management,
+Shock, Tachycardia, Bradycardia, etc.
+Effective 03/31/2024 3000P-3 of 3
+Source: 2023v1-2 PA ALS Protocols.pdf
+
+Content: Pennsylvania Department of Health Behavioral & Poisoning 8031– ALS – Adult/Peds
+POISONING/TOXIN EXPOSURE
+STATEWIDE ALS PROTOCOL
+INGESTED TOXINS
+DO NOT INDUCE VOMITING
+For asymptomatic ingestions that may not require transport
+Consider contacting Poison Control Center, for stable patient 3,4
+Initiate IV/IO NSS KVO
+if patient has symptoms
+(if hypotensive, follow Shock
+Protocol #7005)
+If mental status changes,
+check blood glucose and treat hypoglycemia
+per Altered Level of Consciousness Protocol #7002A or
+#7002P
+Contact Medical Command
+INHALED TOXINS
+REMOVE PATIENT FROM ENVIRONMENT
+Administer High-flow oxygen and ventilate with BVM, if needed
+Intubate, if indicated
+Initiate IV/IO NSS KVO
+(if hypotensive, follow Shock Protocol #7005)
+Monitor ECG and
+Pulse Oximetry, if available
+WARNING:
+Pulse Oximetry monitors give false readings in patients that have been exposed to carbon
+monoxide, cyanide, or drugs/ chemicals that may cause methemoglobinemia.
+Use 100% oxygen in these patients regardless of Pulse Oximetry reading.
+Contact Medical Command
+Consider transport to facility with hyperbaric oxygen,
+if patient has suspected carbon monoxide exposure and has altered mental status or is
+pregnant.
+May be appropriate if time to hyperbaric facility is within 30 minutes of time to closest
+facility and patient is deemed stable for the longer transport.
+Effective 03/31/2024 Page 8031-2 of 6
+Source: 2023v1-2 PA ALS Protocols.pdf
+2024-02-28 13:37:36 -0500   36728 execution.flow     INFO     Node generate_prompt_context completes.
+2024-02-28 13:37:36 -0500   36728 execution.flow     INFO     Executing node prompt_variant. node run id: 06ecc288-3464-423d-a897-05302b3bc856_prompt_variant_0
+2024-02-28 13:37:36 -0500   36728 execution.flow     INFO     Node prompt_variant completes.
+2024-02-28 13:37:36 -0500   36728 execution.flow     INFO     Executing node chat_with_context. node run id: 06ecc288-3464-423d-a897-05302b3bc856_chat_with_context_0
+2024-02-28 13:37:36 -0500   36728 execution.flow     WARNING  Output of chat_with_context is not json serializable, use str to store it.
+2024-02-28 13:37:36 -0500   36728 execution.flow     INFO     Node chat_with_context completes.

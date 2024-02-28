@@ -1,0 +1,117 @@
+{
+  "package": {},
+  "code": {
+    "modify_query_with_history.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "chat_history": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_input": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "modify_query_with_history.jinja2"
+    },
+    "vectordb_lookup.py": {
+      "type": "python",
+      "inputs": {
+        "queries": {
+          "type": [
+            "string"
+          ]
+        },
+        "search_connection": {
+          "type": [
+            "CognitiveSearchConnection"
+          ]
+        },
+        "index_name": {
+          "type": [
+            "string"
+          ]
+        },
+        "query_type": {
+          "type": [
+            "string"
+          ]
+        },
+        "top_k": {
+          "type": [
+            "int"
+          ]
+        },
+        "semantic_configuration": {
+          "type": [
+            "string"
+          ]
+        },
+        "vector_fields": {
+          "type": [
+            "string"
+          ]
+        },
+        "embedding_connection": {
+          "type": [
+            "AzureOpenAIConnection"
+          ]
+        },
+        "embedding_model": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "vectordb_lookup.py",
+      "function": "search"
+    },
+    "generate_prompt_context.py": {
+      "type": "python",
+      "inputs": {
+        "search_result": {
+          "type": [
+            "object"
+          ]
+        }
+      },
+      "source": "generate_prompt_context.py",
+      "function": "generate_prompt_context"
+    },
+    "prompt_variant.jinja2": {
+      "type": "prompt",
+      "inputs": {
+        "contexts": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_history": {
+          "type": [
+            "string"
+          ]
+        },
+        "chat_input": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "prompt_variant.jinja2"
+    },
+    "chat_with_context.jinja2": {
+      "type": "llm",
+      "inputs": {
+        "prompt_text": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "chat_with_context.jinja2"
+    }
+  }
+}

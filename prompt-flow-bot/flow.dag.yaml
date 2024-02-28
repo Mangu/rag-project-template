@@ -1,0 +1,71 @@
+inputs:
+  chat_history:
+    type: list
+    default: []
+    is_chat_input: false
+    is_chat_history: true
+  chat_input:
+    type: string
+    default: what should be the nasal cannula flow rate?
+    is_chat_input: true
+    is_chat_history: false
+outputs:
+  chat_output:
+    type: string
+    reference: ${chat_with_context.output}
+    is_chat_output: true
+nodes:
+- name: modify_query_with_history
+  type: llm
+  source:
+    type: code
+    path: modify_query_with_history.jinja2
+  inputs:
+    deployment_name: gpt-35-turbo
+    temperature: ".7"
+    chat_history: ${inputs.chat_history}
+    chat_input: ${inputs.chat_input}
+  connection: azure_open_ai_connection
+  api: chat
+- name: vectordb_lookup
+  type: python
+  source:
+    type: code
+    path: vectordb_lookup.py
+  inputs:
+    search_connection: aisearch
+    embedding_connection: azure_open_ai_connection
+    embedding_model: text-embedding-ada-002
+    vector_fields: content_vector, summary_vector
+    query_type: vector_semantic_hybrid
+    top_k: 3
+    index_name: rag_template_index_paems
+    semantic_configuration: semantic-config
+    queries: ${modify_query_with_history.output}
+- name: generate_prompt_context
+  type: python
+  source:
+    type: code
+    path: generate_prompt_context.py
+  inputs:
+    search_result: ${vectordb_lookup.output}
+- name: prompt_variant
+  type: prompt
+  source:
+    type: code
+    path: prompt_variant.jinja2
+  inputs:
+    chat_history: ${inputs.chat_history}
+    chat_input: ${inputs.chat_input}
+    contexts: ${generate_prompt_context.output}
+- name: chat_with_context
+  type: llm
+  source:
+    type: code
+    path: chat_with_context.jinja2
+  inputs:
+    deployment_name: gpt-35-turbo
+    temperature: ".5"
+    prompt_text: ${prompt_variant.output}
+  connection: azure_open_ai_connection
+  api: chat
