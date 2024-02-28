@@ -76,10 +76,6 @@ def search_query_api(endpoint, api_key, api_version, index_name, query_type, que
     else:
         raise Exception(f"failed to query search index : {retrieved_docs.json()}")
 
-
-# The inputs section will change based on the arguments of the tool function, after you save the code
-# Adding type to arguments and return value will help the system show the types properly
-# Please update the function name/signature per need
 @tool
 def search(queries: str, search_connection: CognitiveSearchConnection, index_name: str, query_type: str, top_k: int, semantic_configuration: str, vector_fields: str, embedding_connection: AzureOpenAIConnection, embedding_model: str):
     semantic_configuration = semantic_configuration if semantic_configuration != "None" else None
